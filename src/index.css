@@ -1,0 +1,9 @@
+/* Tailwind v4 uses a single @import to enable the framework */
+@import "tailwindcss";
+
+/* App-level custom styles (optional) */
+:root {
+  --brand: #16a34a;
+}
+
+::selection { background: color-mix(in oklab, var(--brand) 35%, white); }
